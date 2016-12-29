@@ -1,0 +1,88 @@
+main {
+
+}
+
+body {
+	background: #0d1424 url(../images/body-bg.jpg) no-repeat center top fixed;
+	font: .81em/150% Arial, Helvetica, sans-serif;
+	color: #666
+}
+
+#pagewrap {
+	width: 980px;
+	margin: 0 auto;
+}
+
+#header {
+	position: relative;
+	height: 100px;
+}
+
+#site-logo {
+	position: absolute;
+	top: 10px;
+	color: blue;
+}
+
+#site-logo a {
+	font: bold 30px/100% Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+#site-description {
+	font: italic 100%/130% "Times New Roman", Times, serif;
+	color: blue;
+	position: absolute;
+	top: 50px;
+}
+
+#main-nav {
+	width: 100%;
+	background: #ccc;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	z-index: 100;
+}
+
+#main-nav li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	position: relative;
+}
+
+#main-nav li:first-child {
+	margin-left: 10px;
+}
+
+#main-nav a {
+	line-height: 100%;
+	font-weight: bold;
+	color: blue;
+	display: block;
+	padding: 14px 15px;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+}
+
+#search-form {
+	position: absolute;
+	right: 10px;
+	top: 120px;
+	z-index: 100;
+	width: 160px;
+}
+
+#search-form #search {
+	width: 140px;
+	float: right;
+	background: blue;
+	border: none;
+	padding: 6px 10px;
+	border-radius: 5px;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+ 
+}
+
